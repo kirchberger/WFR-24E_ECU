@@ -6,7 +6,7 @@ The car has a 24V low voltage system so the
 
 Image of Assembled Device:
 
-<img src="WFR-24E_UCU_Device.jpg" alt="Schematic" height="400"/>
+<img src="WFR-24E_ECU_Device.jpg" alt="Schematic" height="400"/>
 
 Image of Inputs Schematic
 
