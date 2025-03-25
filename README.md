@@ -20,7 +20,7 @@ The final interfaces chosen for the device were:
 
 More analog inputs were chosen that required for expansion of our sensor system.
 
-This device also included reverse voltage protection and a PTC self resetable fuse on the sensor 5V supply
+This device also included reverse voltage protection and a PTC self resetable fuse on the sensor 5V supply.
 
 This was able to be designed with a small sealed form factor based on a Teensy 4.1 for reduced scope.
 Box was not included in images.
