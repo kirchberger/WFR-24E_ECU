@@ -18,7 +18,9 @@ The final interfaces chosen for the device were:
 | 9-36V 3A Switched Power | 8      |
 | 5V 0.5A Sensor Supply   | 1      |
 
-More analog inputs were chosen that required for expansion of our sensor system
+More analog inputs were chosen that required for expansion of our sensor system.
+
+This device also included reverse voltage protection and a PTC self resetable fuse on the sensor 5V supply
 
 This was able to be designed with a small sealed form factor based on a Teensy 4.1 for reduced scope.
 Box was not included in images.
