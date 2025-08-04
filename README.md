@@ -2,11 +2,13 @@
 
 In the WFR-24E FSAE car, this device reads all sensor and controls all parts of the WFR-24E.
 
-We decided the have 2 controllers onboared to reduce wiring from front to back of the car as this significantly increases the complexity wiring harness complexity.
-The car has a 24V low voltage system so the input voltage range of the device needed to accomadate this, and the device needed interfaces to measure all sensors and command all outputs.
+We decided to have 2 controllers onboared to reduce wiring from front to back of the car.
+This significantly reduces the harness complexity in the car.
+The car has a 24V low voltage system so the input voltage range of the device must accomadate this, and the device must interface with all sensors and outputs.
 
 Sensors were primarally analog with a few digital buttons.
 Motor inverter and BMS were communicated over CAN with a couple lights requiring switched power outputs.
+Switched poer is performed with a high side driver.
 
 
 The final interfaces chosen for the device were:
@@ -18,7 +20,7 @@ The final interfaces chosen for the device were:
 | 9-36V 3A Switched Power | 8      |
 | 5V 0.5A Sensor Supply   | 1      |
 
-More analog inputs were chosen that required for expansion of our sensor system.
+More analog inputs were chosen for possible expansion of our sensor system.
 
 This device also included reverse voltage protection and a PTC self resetable fuse on the sensor 5V supply.
 
